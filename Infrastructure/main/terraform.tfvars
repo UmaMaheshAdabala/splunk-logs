@@ -18,7 +18,7 @@ target_group = {
     name              = "backend"
     port              = 3000
     protocol          = "HTTP"
-    health_check_path = "/health"
+    health_check_path = "/api/health"
   }
 }
 
